@@ -37,6 +37,18 @@ b. Power BI:
 
 
 
+## Key Performance Indicators (KPIs)
+
+The dashboard highlights the following Spotify-focused KPIs:
+
+-	Average Popularity – Average popularity of an artist, songs and album.
+-	Average Duration – Average duration of each song per minute.
+-	Distinct Count of Songs – Total number of songs produced by artists.
+-	Count of Artists – Number of artist per song.
+
+
+
+
 
 
 
