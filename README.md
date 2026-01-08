@@ -19,3 +19,34 @@ The primary dataset of this analysis is from [kaggle.com](https://www.kaggle.com
 Get the whole dataset here [spotify_data](https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset/data)
 
 ---
+## Tools Used
+a. Excel:
+  - Power Query for data cleaning and transformation
+  - Pivot Tables for initial analysis
+  - XLOOKUP for data validation
+     
+b. Power BI:
+  - Power Query Editor for data modeling
+  - DAX for calculated measures and columns
+  - Custom visuals
+  - Bookmarks for interactive storytellings
+    
+---
+
+## Project Dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
