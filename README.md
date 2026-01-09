@@ -3,17 +3,20 @@
 ## Executive Summary
 
 ### Overview Findings
+This project provides an exploratory and descriptive analysis of Spotify music data using interactive dashboards built in Power BI, with data preparation and structuring performed in Excel. The objective is to uncover patterns in artist performance, song characteristics, popularity trends, and audio feature distributions over time.
 
-This project provides an in-depth analysis of Spotify Musical Analysis of different Artists.
-The goal is to generate clear KPIs, descriptive insights, and interactive dashboards, with strong emphasis on audio feature segmentation, performance metrics, and professional documentation. 
+The analysis is designed to support data-driven storytelling, combining visual clarity with analytical depth to better understand music consumption and artist dynamics on Spotify.
 
 
 The interactive Power BI dashboard enables us to:
-  -  Track trends over time
-  -  Uncover listener behavior patterns.
-  -  Identify the popular songs and artists.
+  -  Analyze Spotify songs and artists using descriptive statistics and visual analytics
+  -  Identify trends in song popularity, energy, danceability, and listener mood
+  -  Examine artist-level performance and contribution to overall streaming metrics
+  -  Understand temporal patterns in song releases and popularity over time
+  -  Develop an interactive dashboard suitable for decision-making and storytelling
 
 ### Data Sources
+The data spans a wide time range (1905–2024), allowing both historical and modern trend analysis.
 The primary dataset of this analysis is from [kaggle.com](https://www.kaggle.com/), containing over 1000 records.
 
 Get the whole dataset here [spotify_data](https://www.kaggle.com/datasets/solomonameh/spotify-music-dataset/data)
@@ -21,32 +24,70 @@ Get the whole dataset here [spotify_data](https://www.kaggle.com/datasets/solomo
 ---
 ## Tools Used
 a. Excel:
-  - Power Query for data cleaning and transformation
-  - Pivot Tables for initial analysis
-  - XLOOKUP for data validation
+Excel was used as the initial data preparation tool to:
+  -  Clean and standardize column formats (dates, numerical fields)
+  -  Handle missing and inconsistent values
+  -  Create derived fields such as duration in minutes and categorical groupings
+  -  Validate data integrity before visualization
+
+This step ensured the dataset was structured and analysis-ready before ingestion into Power BI.
      
 b. Power BI:
-  - Power Query Editor for data modeling
-  - DAX for calculated measures and columns
-  - Custom visuals
-  - Bookmarks for interactive storytellings
+Within Power BI:
+  -  Relationships were established between songs, artists, and categorical dimensions
+  -  Measures were created using DAX to calculate:
+      -  Total and average popularity
+      -  Song counts and distinct artist counts
+      -  Aggregated audio feature values
+
+Filters and slicers were implemented for dynamic analysis by year, artist, and song
     
 ---
 
-## Project Dashboard
+##  Dashboard Analysis
 
+###  1. Main (Overview) Dashboard
 
+This dashboard provides a high-level summary of the Spotify dataset, focusing on overall performance indicators.
 
-## Key Performance Indicators (KPIs)
+Key KPIs:
 
-The dashboard highlights the following Spotify-focused KPIs:
+  -  Total Songs Analyzed: 1,404
+  -  Total Artists: 1,158
+  -  Average Song Duration: 3.58 minutes
+  -  Average Popularity Score: 75.81
 
--	Average Popularity – Average popularity of an artist, songs and album.
--	Average Duration – Average duration of each song per minute.
--	Distinct Count of Songs – Total number of songs produced by artists.
--	Count of Artists – Number of artist per song.
+Analytical Insights:
+  -  A significant proportion of songs fall into high energy and high danceability categories
+  -  Listener mood distribution shows dominance of neutral and happy moods
+  -  Electronic and mixed production styles lead in acousticness distribution
+  -  Fridays have the highest number of song releases
+  -  Popularity fluctuates across months, indicating seasonal trends
+  -  This dashboard functions as an executive summary, offering quick insight into overall streaming behavior.
 
+###  2. Artist Dashboard
 
+The artist dashboard focuses on artist-level analysis, highlighting contribution and performance differences.
+
+Key Insights:
+  -  Artists vary significantly in song volume, popularity, and audio feature intensity
+  -  Top artists dominate cumulative popularity despite differences in song counts
+  -  Energy and tempo profiles differ widely across artists, influencing engagement
+  -  Subgenre and playlist exposure play a major role in artist visibility
+  -  This view supports comparative analysis and identification of high-impact artists.
+
+###  3. Songs Dashboard
+
+The songs dashboard provides a granular, track-level perspective.
+
+Key Features:
+  -  Detailed song table including popularity, duration, energy, danceability, and valence
+  -  Analysis of songs by weekday and month of release
+  -  Popularity breakdown by albums, playlists, and subgenres
+  -  Identification of tracks and collections driving engagement
+  -  This dashboard enables deep-dive exploration of individual songs and catalog trends.
+
+---
 
 
 
