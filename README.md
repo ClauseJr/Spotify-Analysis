@@ -114,7 +114,7 @@ This project demonstrates the practical application of Excel and Power BI in tra
 
 1.	SQL for Data Engineering [Data with Baraa](https://www.youtube.com/watch?v=SSKVgrwhzus)
 2.	Data Analytics with [Chandoo](https://www.youtube.com/results?search_query=chandoo)
----
+
 
 
 
