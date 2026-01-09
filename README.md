@@ -89,10 +89,32 @@ Key Features:
 
 ---
 
+##  Key Findings
 
+  -  High-energy and danceable songs consistently perform better in terms of popularity
+  -  Artist popularity is influenced by both consistency and strategic playlist placement
+  -  Release timing, particularly Fridays, correlates with higher song volume and visibility
+  -  Audio features such as energy, tempo, and valence are strong indicators of listener engagement
+  -  Spotify streaming trends reflect evolving audience preferences over time
 
+---
+##  Limitations & Caveats
+  -  The dataset excludes information on editorial playlists, paid promotions, or external marketing efforts that significantly impact streaming performance.
+  -  The dataset does not include listener age, location, or behavioral context, limiting the ability to perform audience segmentation or regional performance analysis.
+  -  The dataset is based on spotify analysis, and it might not be the real spotify data.
 
+---
+    
+##  Conclusion
 
+This project demonstrates the practical application of Excel and Power BI in transforming raw Spotify data into meaningful analytical insights. By combining data preparation, modeling, and interactive visualization, the analysis delivers a comprehensive view of music streaming behavior.
+
+---
+## References
+
+1.	SQL for Data Engineering [Data with Baraa](https://www.youtube.com/watch?v=SSKVgrwhzus)
+2.	Data Analytics with [Chandoo](https://www.youtube.com/results?search_query=chandoo)
+---
 
 
 
