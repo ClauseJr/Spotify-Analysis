@@ -1,4 +1,4 @@
-# Spotify Music Analytics
+# Spotify Music Analytics Project
 
 ## Executive Summary
 
